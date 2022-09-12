@@ -1,0 +1,65 @@
+{
+    "rules": [
+        {
+            "col": "x",
+            "rule": "值比较",
+            "operator": "!=",
+            "value": null
+        },
+        {
+            "col": "x",
+            "rule": "列间比较",
+            "operator": ">",
+            "value": "y"
+        },
+        {
+            "col": "x",
+            "rule": "dumplicate",
+            "value": false,
+            "operator": "==",
+            "other": null
+        },
+        {
+            "col": "x",
+            "rule": "multi_sheet_dumplicate",
+            "value": false,
+            "operator": "==",
+            "other": null
+        },
+        {
+            "col": "x",
+            "rule": "date_format",
+            "value": "yyyy-mm-dd",
+            "operator": "==",
+            "other": null
+        },
+        {
+            "col": "x",
+            "rule": "len",
+            "value": 100,
+            "operator": ">",
+            "other": null
+        },
+        {
+            "col": "x",
+            "rule": "includes",
+            "value": true,
+            "operator": "==",
+            "other": {
+                "enums": [
+                    "a",
+                    "b",
+                    "c"
+                ]
+            }
+        },
+        {
+            "col": "x,y",
+            "rule": "len",
+            "value": 10,
+            "operator": ">",
+            "other": null
+        }
+    ],
+    "warnings": []
+}
