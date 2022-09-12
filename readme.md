@@ -2,7 +2,7 @@
 
 [中文](readme.zh-cn.md)
 
-This repository is my attmpt at a scenario I encountered in my work.
+This repository is my attempt at a scenario I encountered in my work.
 
 This scenario simply means that you have to do a check on the format of data in some Excel sheets and then automatically enter it into the database.
 All I have to do on the front end is:
